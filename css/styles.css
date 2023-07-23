@@ -1,0 +1,46 @@
+.raleway {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    letter: 3%;
+}
+
+.pointer {
+    cursor: pointer;
+    color: rgba(77, 90, 229, 1);
+    background-color: rgba(231, 233, 252, 1);
+}
+
+.pointer:hover {
+    color: white;
+    background-color: rgba(64, 75, 191, 1);
+}
+
+.roboto5 {
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+.roboto4 {
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.roboto7 {
+    font-family: Roboto;
+    font-weight: 700;
+}
+
+.roboto9 {
+    font-family: Roboto;
+    font-weight: 900;
+}
+
+.navb {
+    color: rgba(46, 47, 66, 1);
+}
+
+.slate {
+    color: rgba(67, 68, 85, 1);
+}
