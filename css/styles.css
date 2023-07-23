@@ -33,3 +33,29 @@ body {
 .color-iris {
     color: rgba(77, 90, 229, 1);
 }
+
+.footer-background {
+    background-color: rgba(46, 47, 66, 1);
+}
+
+.footer-color-studio {
+    color: rgba(244, 244, 253, 1);
+}
+
+.color-cloud {
+    color: rgba(244, 244, 253, 1);
+}
+
+.color-white {
+    color: white;
+}
+
+.color-background-iris {
+    color: rgba(77, 90, 229, 1);
+}
+
+.pointer-index {
+    cursor: pointer;
+    color: white;
+    background-color: rgba(77, 90, 229, 1);
+}
