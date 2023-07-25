@@ -1,5 +1,32 @@
 body {
     font-family: "Roboto", sans-serif;
+    color: #212121;
+    text-decoration: none;
+}
+
+:root {
+    --navy-blue: #2e2f42;
+    --iris: #4d5ae5;
+    --slate: #434455;
+    --cloud: #f4f4fd;
+    --cornflower: #e7e9fc;
+    --ocean: #404bbf;
+
+}
+
+.navigation-items .navigation-item {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--navy-blue);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.navigation-contacts .navigation-contact {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--slate);
+    text-decoration: none;
 }
 
 .page-title {
@@ -8,7 +35,8 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    letter: 3%;}
+    text-decoration: none;
+}
 
 .pointer {
     cursor: pointer;
@@ -21,6 +49,15 @@ body {
     background-color: rgba(64, 75, 191, 1);
 }
 
+.pointer-index {
+    cursor: pointer;
+    color: white;
+    background-color: rgba(77, 90, 229, 1);
+}
+
+.color-iris {
+    color: rgba(77, 90, 229, 1);
+}
 
 .color-navb {
     color: rgba(46, 47, 66, 1);
@@ -30,32 +67,37 @@ body {
     color: rgba(67, 68, 85, 1);
 }
 
-.color-iris {
-    color: rgba(77, 90, 229, 1);
-}
-
-.footer-background {
-    background-color: rgba(46, 47, 66, 1);
-}
-
-.footer-color-studio {
-    color: rgba(244, 244, 253, 1);
-}
-
 .color-cloud {
-    color: rgba(244, 244, 253, 1);
+    color: var(--cloud);
 }
 
-.color-white {
+.title-index {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.1;
     color: white;
 }
 
-.color-background-iris {
-    color: rgba(77, 90, 229, 1);
+.index-background {
+    background-color: var(--navy-blue);
 }
 
-.pointer-index {
-    cursor: pointer;
-    color: white;
-    background-color: rgba(77, 90, 229, 1);
+.h3-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--navy-blue);
+}
+
+.h2-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    color: var(--navy-blue);
+}
+
+.p-footer {
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--cloud);
 }
